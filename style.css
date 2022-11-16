@@ -1,0 +1,39 @@
+body {
+    background-color: burlywood;
+    color: rgb(59, 20, 20);
+}
+
+img {
+    max-width: 100%;
+}
+
+nav > iframe {
+    max-width: 100%;
+}
+
+.container {
+    max-width: min(80ch, 100vw - 4rem);
+    margin-inline: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+nav > ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 1rem;
+}
+
+a:link {
+    color: brown;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
