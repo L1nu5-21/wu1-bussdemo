@@ -1,13 +1,11 @@
+
 body {
     background-color: burlywood;
-    color: rgb(59, 20, 20);
+    color: rgb(233, 129, 43);
 }
 
-img {
-    max-width: 100%;
-}
-
-nav > iframe {
+img, iframe {
+    width: 100%;
     max-width: 100%;
 }
 
@@ -34,6 +32,19 @@ a:link {
     color: brown;
 }
 
+a:visited {
+    color: sienna;
+}
+
+a:hover {
+    color: darkred;
+}
+
 ::-webkit-scrollbar {
     display: none;
+}
+
+main {
+    padding: 3rem ;
+    background-color: rgb(59, 20, 20);
 }
